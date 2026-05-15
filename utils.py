@@ -4,3 +4,6 @@
 import yaml
 with open('config.yaml') as f:
     config = yaml.safe_load(f)
+
+# Create basic prompt template for conversation
+from langchain.memory import ConversationBufferMemory
