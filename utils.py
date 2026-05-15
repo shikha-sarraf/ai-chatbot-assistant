@@ -7,3 +7,6 @@ with open('config.yaml') as f:
 
 # Create basic prompt template for conversation
 from langchain.memory import ConversationBufferMemory
+
+# Add memory capability using ConversationBufferMemory
+client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
