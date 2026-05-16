@@ -10,3 +10,6 @@ from langchain.memory import ConversationBufferMemory
 
 # Add memory capability using ConversationBufferMemory
 client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
+
+# Optimize conversation history cleanup window
+client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
