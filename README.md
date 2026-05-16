@@ -6,3 +6,4 @@ Category: AI
 
 ## History log
 - **2026-05-15**: Write UI interface using Gradio
+- **2026-05-15**: Add system prompts for chatbot persona customization
