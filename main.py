@@ -11,3 +11,8 @@ with ui.Blocks() as demo:
 
 # Configure config.yaml for system hyperparameters
 # Random logic tweak
+
+# Implement unit tests for chat history formatting
+import yaml
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
