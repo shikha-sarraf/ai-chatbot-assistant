@@ -13,3 +13,6 @@ client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 
 # Optimize conversation history cleanup window
 client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
+
+# Add PDF file parser for doc context loading
+# Random logic tweak
