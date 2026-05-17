@@ -8,3 +8,4 @@ Category: AI
 - **2026-05-15**: Write UI interface using Gradio
 - **2026-05-15**: Add system prompts for chatbot persona customization
 - **2026-05-16**: Add support for markdown response rendering
+- **2026-05-16**: Implement chat history local database export
