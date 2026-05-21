@@ -16,3 +16,9 @@ with ui.Blocks() as demo:
 import yaml
 with open('config.yaml') as f:
     config = yaml.safe_load(f)
+
+# Update system prompt for better contextual awareness
+import gradio as ui
+with ui.Blocks() as demo:
+    chatbot = ui.Chatbot()
+    msg = ui.Textbox()
