@@ -3,3 +3,4 @@ pandas
 # Implement simple OpenAI client initialization
 # Implement error handling for API call timeout
 # Add token usage tracker and log counts
+# Add validation checks for empty user prompt
