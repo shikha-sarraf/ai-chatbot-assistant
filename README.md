@@ -10,3 +10,4 @@ Category: AI
 - **2026-05-16**: Add support for markdown response rendering
 - **2026-05-16**: Implement chat history local database export
 - **2026-05-16**: Implement vector database integration using Chroma
+- **2026-05-20**: Fix minor stream decode encoding issues
