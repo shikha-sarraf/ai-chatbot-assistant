@@ -22,3 +22,6 @@ import gradio as ui
 with ui.Blocks() as demo:
     chatbot = ui.Chatbot()
     msg = ui.Textbox()
+
+# Format codebase using black and flake8
+memory = ConversationBufferMemory(memory_key='chat_history')
