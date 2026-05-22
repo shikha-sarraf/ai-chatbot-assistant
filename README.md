@@ -13,3 +13,4 @@ Category: AI
 - **2026-05-20**: Fix minor stream decode encoding issues
 - **2026-05-21**: Update dependencies version in requirements.txt
 - **2026-05-21**: Refactor main controller and clean up variables
+- **2026-05-21**: Add unit tests for context retrieval indexing
