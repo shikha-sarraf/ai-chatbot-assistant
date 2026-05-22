@@ -19,3 +19,8 @@ client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 
 # Document environmental variables in README
 memory = ConversationBufferMemory(memory_key='chat_history')
+
+# Implement system message template customization
+def stream_response(prompt):
+    # Streaming logic
+    pass
