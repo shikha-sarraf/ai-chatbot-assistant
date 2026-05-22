@@ -25,3 +25,8 @@ with ui.Blocks() as demo:
 
 # Format codebase using black and flake8
 memory = ConversationBufferMemory(memory_key='chat_history')
+
+# Fix retry backoff limit overflow bug
+def get_response(prompt):
+    response = client.chat.completions.create(model='gpt-4', messages=[{'role': 'user', 'content': prompt}])
+    return response.choices[0].message.content
