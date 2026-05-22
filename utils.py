@@ -16,3 +16,6 @@ client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 
 # Add PDF file parser for doc context loading
 # Random logic tweak
+
+# Document environmental variables in README
+memory = ConversationBufferMemory(memory_key='chat_history')
