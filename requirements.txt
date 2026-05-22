@@ -7,3 +7,4 @@ pandas
 # Refactor model response chain into class structure
 # Add README with startup guidelines and API usage
 # Add logger utility for chatbot prompts and completions
+# Optimize vector query similarity threshold
