@@ -24,3 +24,6 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 def stream_response(prompt):
     # Streaming logic
     pass
+
+# Fix local file reader encoding crash
+# Random logic tweak
