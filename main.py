@@ -30,3 +30,8 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 def get_response(prompt):
     response = client.chat.completions.create(model='gpt-4', messages=[{'role': 'user', 'content': prompt}])
     return response.choices[0].message.content
+
+# Update README.md
+import yaml
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
