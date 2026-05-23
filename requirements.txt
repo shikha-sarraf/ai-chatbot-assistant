@@ -8,3 +8,4 @@ pandas
 # Add README with startup guidelines and API usage
 # Add logger utility for chatbot prompts and completions
 # Optimize vector query similarity threshold
+# Format output responses cleanly in console
