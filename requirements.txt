@@ -9,3 +9,4 @@ pandas
 # Add logger utility for chatbot prompts and completions
 # Optimize vector query similarity threshold
 # Format output responses cleanly in console
+# Clean up code in README.md
