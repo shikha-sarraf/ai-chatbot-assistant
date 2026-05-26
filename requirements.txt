@@ -10,3 +10,4 @@ pandas
 # Optimize vector query similarity threshold
 # Format output responses cleanly in console
 # Clean up code in README.md
+# Fix documentation in README.md
