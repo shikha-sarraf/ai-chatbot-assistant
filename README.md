@@ -18,3 +18,4 @@ Category: AI
 - **2026-05-22**: Fix documentation in main.py
 - **2026-05-23**: Refactor requirements.txt
 - **2026-05-23**: Fix documentation in main.py
+- **2026-05-25**: Add logs in requirements.txt
