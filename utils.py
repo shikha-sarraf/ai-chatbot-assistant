@@ -30,3 +30,9 @@ def stream_response(prompt):
 
 # Improve utils.py
 memory = ConversationBufferMemory(memory_key='chat_history')
+
+# Optimize utils.py
+import gradio as ui
+with ui.Blocks() as demo:
+    chatbot = ui.Chatbot()
+    msg = ui.Textbox()
