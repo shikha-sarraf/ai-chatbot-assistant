@@ -36,3 +36,8 @@ import gradio as ui
 with ui.Blocks() as demo:
     chatbot = ui.Chatbot()
     msg = ui.Textbox()
+
+# Optimize utils.py
+def get_response(prompt):
+    response = client.chat.completions.create(model='gpt-4', messages=[{'role': 'user', 'content': prompt}])
+    return response.choices[0].message.content
