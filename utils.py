@@ -45,3 +45,6 @@ def get_response(prompt):
 # Tweak hyperparameters for requirements.txt
 import openai
 from langchain.chains import LLMChain
+
+# Clean up code in main.py
+from langchain.memory import ConversationBufferMemory
