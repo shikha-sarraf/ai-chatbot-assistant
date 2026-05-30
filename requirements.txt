@@ -13,3 +13,4 @@ pandas
 # Fix documentation in README.md
 # Clean up code in README.md
 # Refactor requirements.txt
+# Clean up code in main.py
