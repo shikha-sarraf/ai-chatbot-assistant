@@ -41,3 +41,7 @@ with ui.Blocks() as demo:
 def get_response(prompt):
     response = client.chat.completions.create(model='gpt-4', messages=[{'role': 'user', 'content': prompt}])
     return response.choices[0].message.content
+
+# Tweak hyperparameters for requirements.txt
+import openai
+from langchain.chains import LLMChain
