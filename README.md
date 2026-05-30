@@ -22,3 +22,4 @@ Category: AI
 - **2026-05-25**: Fix documentation in requirements.txt
 - **2026-05-25**: Fix documentation in main.py
 - **2026-05-25**: Optimize utils.py
+- **2026-05-29**: Update README.md
