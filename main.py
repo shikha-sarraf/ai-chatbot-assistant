@@ -38,3 +38,6 @@ with open('config.yaml') as f:
 
 # Tweak hyperparameters for README.md
 # Random logic tweak
+
+# Clean up code in README.md
+from langchain.memory import ConversationBufferMemory
