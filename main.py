@@ -44,3 +44,8 @@ from langchain.memory import ConversationBufferMemory
 
 # Fix documentation in README.md
 memory = ConversationBufferMemory(memory_key='chat_history')
+
+# Add logs in requirements.txt
+import yaml
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
