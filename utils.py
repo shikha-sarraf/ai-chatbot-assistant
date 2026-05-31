@@ -48,3 +48,6 @@ from langchain.chains import LLMChain
 
 # Clean up code in main.py
 from langchain.memory import ConversationBufferMemory
+
+# Clean up code in utils.py
+memory = ConversationBufferMemory(memory_key='chat_history')
