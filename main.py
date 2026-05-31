@@ -49,3 +49,6 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 import yaml
 with open('config.yaml') as f:
     config = yaml.safe_load(f)
+
+# Update requirements.txt
+from langchain.memory import ConversationBufferMemory
