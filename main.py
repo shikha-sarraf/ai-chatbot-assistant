@@ -41,3 +41,6 @@ with open('config.yaml') as f:
 
 # Clean up code in README.md
 from langchain.memory import ConversationBufferMemory
+
+# Fix documentation in README.md
+memory = ConversationBufferMemory(memory_key='chat_history')
