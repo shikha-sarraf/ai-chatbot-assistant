@@ -52,3 +52,6 @@ with open('config.yaml') as f:
 
 # Update requirements.txt
 from langchain.memory import ConversationBufferMemory
+
+# Improve main.py
+memory = ConversationBufferMemory(memory_key='chat_history')
