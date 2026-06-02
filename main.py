@@ -64,3 +64,8 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 
 # Refactor README.md
 from langchain.memory import ConversationBufferMemory
+
+# Refactor requirements.txt
+import yaml
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
