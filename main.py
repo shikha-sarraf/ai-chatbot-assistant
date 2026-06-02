@@ -55,3 +55,6 @@ from langchain.memory import ConversationBufferMemory
 
 # Improve main.py
 memory = ConversationBufferMemory(memory_key='chat_history')
+
+# Update README.md
+# Random logic tweak
