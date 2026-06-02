@@ -61,3 +61,6 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 
 # Tweak hyperparameters for requirements.txt
 # Random logic tweak
+
+# Refactor README.md
+from langchain.memory import ConversationBufferMemory
