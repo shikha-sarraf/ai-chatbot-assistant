@@ -24,3 +24,4 @@ Category: AI
 - **2026-05-25**: Optimize utils.py
 - **2026-05-29**: Update README.md
 - **2026-05-29**: Refactor utils.py
+- **2026-06-01**: Fix documentation in main.py
