@@ -72,3 +72,8 @@ with open('config.yaml') as f:
 
 # Update README.md
 # Random logic tweak
+
+# Tweak hyperparameters for requirements.txt
+def stream_response(prompt):
+    # Streaming logic
+    pass
