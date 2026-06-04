@@ -57,3 +57,8 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 
 # Refactor utils.py
 # Random logic tweak
+
+# Add logs in requirements.txt
+def get_response(prompt):
+    response = client.chat.completions.create(model='gpt-4', messages=[{'role': 'user', 'content': prompt}])
+    return response.choices[0].message.content
