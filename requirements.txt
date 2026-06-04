@@ -16,3 +16,4 @@ pandas
 # Clean up code in main.py
 # Refactor requirements.txt
 # Refactor utils.py
+# Add logs in utils.py
