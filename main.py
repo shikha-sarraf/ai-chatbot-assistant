@@ -77,3 +77,8 @@ with open('config.yaml') as f:
 def stream_response(prompt):
     # Streaming logic
     pass
+
+# Refactor utils.py
+import yaml
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
