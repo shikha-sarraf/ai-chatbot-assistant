@@ -88,3 +88,9 @@ with open('config.yaml') as f:
 
 # Add logs in requirements.txt
 # Random logic tweak
+
+# Tweak hyperparameters for requirements.txt
+import gradio as ui
+with ui.Blocks() as demo:
+    chatbot = ui.Chatbot()
+    msg = ui.Textbox()
