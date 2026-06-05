@@ -18,3 +18,4 @@ pandas
 # Refactor utils.py
 # Add logs in utils.py
 # Refactor main.py
+# Improve README.md
