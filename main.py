@@ -94,3 +94,9 @@ import gradio as ui
 with ui.Blocks() as demo:
     chatbot = ui.Chatbot()
     msg = ui.Textbox()
+
+# Improve README.md
+import gradio as ui
+with ui.Blocks() as demo:
+    chatbot = ui.Chatbot()
+    msg = ui.Textbox()
