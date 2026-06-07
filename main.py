@@ -105,3 +105,6 @@ with ui.Blocks() as demo:
 def stream_response(prompt):
     # Streaming logic
     pass
+
+# Update utils.py
+memory = ConversationBufferMemory(memory_key='chat_history')
