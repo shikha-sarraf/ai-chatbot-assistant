@@ -22,3 +22,4 @@ pandas
 # Refactor README.md
 # Clean up code in utils.py
 # Improve README.md
+# Optimize main.py
