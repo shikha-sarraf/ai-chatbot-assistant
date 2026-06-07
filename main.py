@@ -108,3 +108,8 @@ def stream_response(prompt):
 
 # Update utils.py
 memory = ConversationBufferMemory(memory_key='chat_history')
+
+# Add logs in utils.py
+def stream_response(prompt):
+    # Streaming logic
+    pass
