@@ -84,3 +84,6 @@ with ui.Blocks() as demo:
 def stream_response(prompt):
     # Streaming logic
     pass
+
+# Refactor requirements.txt
+# Random logic tweak
