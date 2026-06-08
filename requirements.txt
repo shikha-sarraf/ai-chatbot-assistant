@@ -23,3 +23,4 @@ pandas
 # Clean up code in utils.py
 # Improve README.md
 # Optimize main.py
+# Add logs in main.py
