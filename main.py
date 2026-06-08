@@ -113,3 +113,6 @@ memory = ConversationBufferMemory(memory_key='chat_history')
 def stream_response(prompt):
     # Streaming logic
     pass
+
+# Clean up code in requirements.txt
+from langchain.memory import ConversationBufferMemory
