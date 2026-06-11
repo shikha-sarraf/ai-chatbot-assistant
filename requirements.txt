@@ -24,3 +24,4 @@ pandas
 # Improve README.md
 # Optimize main.py
 # Add logs in main.py
+# Tweak hyperparameters for main.py
