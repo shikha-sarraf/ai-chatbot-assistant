@@ -87,3 +87,6 @@ def stream_response(prompt):
 
 # Refactor requirements.txt
 # Random logic tweak
+
+# Add logs in main.py
+memory = ConversationBufferMemory(memory_key='chat_history')
