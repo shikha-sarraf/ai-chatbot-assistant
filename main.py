@@ -116,3 +116,8 @@ def stream_response(prompt):
 
 # Clean up code in requirements.txt
 from langchain.memory import ConversationBufferMemory
+
+# Add logs in README.md
+import yaml
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
