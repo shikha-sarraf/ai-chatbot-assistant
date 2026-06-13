@@ -121,3 +121,6 @@ from langchain.memory import ConversationBufferMemory
 import yaml
 with open('config.yaml') as f:
     config = yaml.safe_load(f)
+
+# Add logs in requirements.txt
+# Random logic tweak
