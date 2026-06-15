@@ -1,32 +1,36 @@
-# ai-chatbot-assistant
+# AI Chatbot Assistant
 
-A conversational AI chatbot assistant using LangChain, OpenAI, and Gradio.
+A conversational AI chatbot assistant built with LangChain, OpenAI API, and Gradio for a smooth, user-friendly interface.
 
-Category: AI
+## Quick Start
 
-## History log
-- **2026-05-15**: Write UI interface using Gradio
-- **2026-05-15**: Add system prompts for chatbot persona customization
-- **2026-05-16**: Add support for markdown response rendering
-- **2026-05-16**: Implement chat history local database export
-- **2026-05-16**: Implement vector database integration using Chroma
-- **2026-05-20**: Fix minor stream decode encoding issues
-- **2026-05-21**: Update dependencies version in requirements.txt
-- **2026-05-21**: Refactor main controller and clean up variables
-- **2026-05-21**: Add unit tests for context retrieval indexing
-- **2026-05-22**: Optimize memory utilization for context length
-- **2026-05-22**: Fix documentation in main.py
-- **2026-05-23**: Refactor requirements.txt
-- **2026-05-23**: Fix documentation in main.py
-- **2026-05-25**: Add logs in requirements.txt
-- **2026-05-25**: Fix documentation in requirements.txt
-- **2026-05-25**: Fix documentation in main.py
-- **2026-05-25**: Optimize utils.py
-- **2026-05-29**: Update README.md
-- **2026-05-29**: Refactor utils.py
-- **2026-06-01**: Fix documentation in main.py
-- **2026-06-01**: Optimize README.md
-- **2026-06-02**: Fix documentation in requirements.txt
-- **2026-06-03**: Optimize README.md
-- **2026-06-03**: Update requirements.txt
-- **2026-06-05**: Clean up code in requirements.txt
+### 1. Clone the repository
+```bash
+git clone https://github.com/shikha-sarraf/ai-chatbot-assistant.git
+cd ai-chatbot-assistant
+```
+
+### 2. Install dependencies
+Make sure you have Python installed, then run:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure environment
+Set your OpenAI API key as an environment variable:
+```bash
+export OPENAI_API_KEY="your-api-key-here"
+```
+
+### 4. Run the app
+```bash
+python main.py
+```
+
+## Features
+- **Conversational Memory**: Retains context across the chat session.
+- **Streaming Responses**: Real-time response streaming.
+- **Interactive UI**: Clean interface powered by Gradio.
+
+## License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
